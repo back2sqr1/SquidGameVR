@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Lightning
+  - DynamicWaterObstruction
+  - projectile
+  - fish
+  - waypoint
+  - FxTemporaire
+  - radio
   layers:
   - Default
   - TransparentFX
