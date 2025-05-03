@@ -12,12 +12,14 @@ public class Timer : MonoBehaviour
     [SerializeField] private int _startMinutes;
     [SerializeField] private TMP_Text _timerText;
     public int status = 0;
+    private Vector3 origin;
     // 0 = playing, 1 = win, 2 = lose
     void Start()
     {
         _currentTime = _startMinutes * 60;
         _timerActive = true;
-        
+
+        origin = new Vector3(5.7f, 3.9f, 45.1f);
     }
 
     // Update is called once per frame
@@ -58,6 +60,16 @@ public class Timer : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && gameObject.transform.position.z >= 50)
+        {
+            gameObject.transform.position = origin;
+        }
+        //Debug.Log("Collision with " + collision.gameObject.name);
+        //Debug.Log(Equals(collision.gameObject.tag, "Enemy"));
+        //Debug.Log(gameObject.transform.position.z);
+        //Debug.Log(origin);
+    }
 
-    
 }

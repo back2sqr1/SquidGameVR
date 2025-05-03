@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.all": "74.0.2",
+    "com.meta.xr.sdk.core": "74.0.1",
+    "com.meta.xr.sdk.interaction.ovr": "74.0.2",
+    "com.meta.xr.simulator": "74.0.0",
     "com.rorygames.vhacd": "https://github.com/rorygames/VHACD.git?path=/com.rorygames.vhacd",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.7",
@@ -10,7 +15,6 @@
     "com.unity.xr.interaction.toolkit": "2.6.4",
     "com.unity.xr.management": "4.5.0",
     "com.unity.xr.meta-openxr": "1.0.3",
-    "com.unity.xr.oculus": "4.4.0",
     "com.unity.xr.openxr": "1.14.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

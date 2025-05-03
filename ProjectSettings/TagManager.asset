@@ -10,6 +10,8 @@ TagManager:
   - waypoint
   - FxTemporaire
   - radio
+  - Lightning
+  - Enemy
   layers:
   - Default
   - TransparentFX
